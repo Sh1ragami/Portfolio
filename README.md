@@ -1,12 +1,39 @@
-# React + Vite
+# 🌐 Sh1ragami Portfolio ページ紹介
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> [🔗 公開ページはこちら](https://sh1ragami.github.io/Portfolio/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 このページについて
 
-## Expanding the ESLint configuration
+このサイトは、**Sh1ragami** のポートフォリオページです。  
+React + Vite を用いて構築され、アニメーション、3D表現、ホバーエフェクトなどを駆使して、シンプルかつ印象的なWeb体験を提供します。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎨 特徴的な演出・設計
+
+- 🔹 **React + Vite による高速構築**
+- 🔹 **Framer Motion を活用したアニメーション**
+- 🔹 **Three.js / Fiber による3D演出（必要に応じて）**
+- 🔹 **レスポンシブ対応・スマホ閲覧OK**
+- 🔹 **GitHub Pagesで静的ホスティング**
+
+## 📦 使用技術（主要）
+
+- Vite
+- React
+- Framer Motion
+- gh-pages（デプロイ用）
+- Orbitronフォント（Google Fonts）
+
+---
+
+## 🚀 公開URL
+
+[https://sh1ragami.github.io/Portfolio/](https://sh1ragami.github.io/Portfolio/)
+
+---
+
+## 📬 開発者
+
+**Sh1ragami**
+
+ご覧いただきありがとうございます。何かあればGitHubからお気軽にご連絡ください！
