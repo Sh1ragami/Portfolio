@@ -14,22 +14,22 @@ const projects = [
   },
   {
     title: "Passit",
-    url: "https://protopedia.net/prototype/6072",
+    url: "https://protopedia.net/prototype/",
     image: "/Portfolio/projects/project5.jpg",
   },
   {
     title: "ところてん",
-    url: "https://protopedia.net/prototype/6072",
+    url: "https://protopedia.net/prototype/",
     image: "/Portfolio/projects/project3.jpg",
   },
   {
     title: "おにぎり",
-    url: "https://protopedia.net/prototype/6072",
+    url: "https://protopedia.net/prototype/",
     image: "/Portfolio/projects/project3.jpg",
   },
   {
     title: "やきにくうどん",
-    url: "https://protopedia.net/prototype/6072",
+    url: "https://protopedia.net/prototype/",
     image: "/Portfolio/projects/project3.jpg",
   },
   {
