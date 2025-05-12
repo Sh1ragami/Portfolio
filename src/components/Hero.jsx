@@ -133,7 +133,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6, duration: 0.8 }}
       >
-        <motion.a whileHover={{ x: 5 }}>brittany.chiang@gmail.com</motion.a>
+        <motion.a whileHover={{ x: 5 }}>2301016@s.asojuku.ac.jp</motion.a>
       </motion.div>
     </section>
   );
