@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion, useAnimation } from "framer-motion";
 import {
   Radar,
@@ -13,37 +14,37 @@ import {
   FaCss3Alt,
   FaJs,
   FaVuejs,
-  FaWordpress,
   FaPython,
   FaLinux,
   FaGitAlt,
+  FaPhp,
   FaDocker,
   FaAws,
+  FaJava,
 } from "react-icons/fa";
 import {
-  SiJquery,
-  SiDjango,
-  SiGo,
+  SiFlutter,
   SiPostgresql,
   SiMysql,
   SiNginx,
+  SiReact,
   SiVim,
 } from "react-icons/si";
 
 const frontEndData = [
   { subject: "HTML/CSS", A: 3 },
   { subject: "JavaScript", A: 2 },
-  { subject: "jQuery", A: 1 },
+  { subject: "React", A: 2 },
   { subject: "Vue.js/Vue CLI", A: 1 },
   { subject: "CSS FW", A: 1 },
-  { subject: "WordPress", A: 2 },
+  { subject: "Flutter", A: 3 },
 ];
 const backEndData = [
-  { subject: "Python", A: 1 },
-  { subject: "Django", A: 1 },
-  { subject: "Go", A: 1 },
-  { subject: "PostgreSQL", A: 1 },
-  { subject: "MySQL", A: 1 },
+  { subject: "Python", A: 2 },
+  { subject: "PHP", A: 3 },
+  { subject: "Java", A: 3 },
+  { subject: "PostgreSQL", A: 2 },
+  { subject: "MySQL", A: 2 },
   { subject: "Nginx", A: 1 },
 ];
 const devOpsData = [
@@ -58,15 +59,15 @@ const devOpsData = [
 const frontEndIcons = {
   "HTML/CSS": FaHtml5,
   JavaScript: FaJs,
-  jQuery: SiJquery,
+  React: SiReact,
   "Vue.js/Vue CLI": FaVuejs,
   "CSS FW": FaCss3Alt,
-  WordPress: FaWordpress,
+  Flutter: SiFlutter,
 };
 const backEndIcons = {
   Python: FaPython,
-  Django: SiDjango,
-  Go: SiGo,
+  PHP: FaPhp,
+  Java: FaJava,
   PostgreSQL: SiPostgresql,
   MySQL: SiMysql,
   Nginx: SiNginx,
