@@ -10,32 +10,32 @@ const projects = [
   {
     title: "Healpass",
     url: "https://protopedia.net/prototype/6090",
-    image: "/src/assets/project1.png",
+    image: "/Portfolio/projects/project1.png",
   },
   {
     title: "Passit",
     url: "https://protopedia.net/prototype/6072",
-    image: "/src/assets/project5.jpg",
+    image: "/Portfolio/projects/project5.jpg",
   },
   {
     title: "ところてん",
     url: "https://protopedia.net/prototype/6072",
-    image: "/src/assets/project3.jpg",
+    image: "/Portfolio/projects/project3.jpg",
   },
   {
     title: "おにぎり",
     url: "https://protopedia.net/prototype/6072",
-    image: "/src/assets/project3.jpg",
+    image: "/Portfolio/projects/project3.jpg",
   },
   {
     title: "やきにくうどん",
     url: "https://protopedia.net/prototype/6072",
-    image: "/src/assets/project3.jpg",
+    image: "/Portfolio/projects/project3.jpg",
   },
   {
     title: "Mon Dev Co",
     url: "https://protopedia.net/prototype/6731",
-    image: "/src/assets/project2.jpg",
+    image: "/Portfolio/projects/project2.jpg",
   },
 ];
 
