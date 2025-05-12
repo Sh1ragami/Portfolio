@@ -1,0 +1,118 @@
+:root {
+  --dark-bg: ;
+  --light-text: #ccd6f6;
+  --accent: #64ffda;
+  --gray-text: #8892b0;
+}
+
+.hero {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  height: 100vh;
+  padding: 20px 60px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu a {
+  color: var(--light-text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu span {
+  color: var(--accent);
+}
+
+.resume {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume:hover {
+  background: rgba(100, 255, 218, 0.1);
+}
+
+
+
+.intro {
+  color: var(--accent);
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 64px;
+  margin: 40px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 34px;
+  color: var(--light-text);
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 24px;
+  line-height: 1.6;
+  color: var(--light-text);
+}
+
+.contactBtn {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+/* 画面中央寄せのための追加 */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
