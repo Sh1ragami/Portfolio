@@ -25,26 +25,26 @@ import {
 import {
   SiFlutter,
   SiPostgresql,
-  SiMysql,
   SiNginx,
   SiReact,
   SiVim,
+  SiRust,
 } from "react-icons/si";
 
 const frontEndData = [
   { subject: "HTML/CSS", A: 3 },
-  { subject: "JavaScript", A: 2 },
-  { subject: "React", A: 2 },
-  { subject: "Vue.js/Vue CLI", A: 1 },
-  { subject: "CSS FW", A: 1 },
-  { subject: "Flutter", A: 3 },
+  { subject: "JavaScript", A: 3 },
+  { subject: "React", A: 3 },
+  { subject: "Vue.js/Vue CLI", A: 2 },
+  { subject: "CSS FW", A: 2 },
+  { subject: "Flutter", A: 4 },
 ];
 const backEndData = [
   { subject: "Python", A: 2 },
-  { subject: "PHP", A: 3 },
-  { subject: "Java", A: 3 },
-  { subject: "PostgreSQL", A: 2 },
-  { subject: "MySQL", A: 2 },
+  { subject: "PHP", A: 4 },
+  { subject: "Java", A: 4 },
+  { subject: "Rust", A: 2 },
+  { subject: "SQL", A: 3 },
   { subject: "Nginx", A: 1 },
 ];
 const devOpsData = [
@@ -68,8 +68,8 @@ const backEndIcons = {
   Python: FaPython,
   PHP: FaPhp,
   Java: FaJava,
-  PostgreSQL: SiPostgresql,
-  MySQL: SiMysql,
+  Rust: SiRust,
+  SQL: SiPostgresql,
   Nginx: SiNginx,
 };
 const devOpsIcons = {
@@ -212,6 +212,7 @@ export default function SkillsRadarChart() {
                     animate={controls}
                   >
                     {Icon && <Icon size={25} color={block.color} />}
+                    {/* eslint-disable-next-line no-irregular-whitespace */}
                     <span>　</span>
                     <span>
                       {item.subject}: {item.A}
