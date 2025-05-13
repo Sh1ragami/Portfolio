@@ -109,7 +109,7 @@ export default function Hero() {
         transition={fadeLoop.transition}
       >
         {[
-          { href: "https://github.com", label: "GitHub" },
+          { href: "https://github.com/", label: "GitHub" },
           { href: "https://linkedin.com", label: "LinkedIn" },
           { href: "https://codepen.io", label: "CodePen" },
           { href: "https://instagram.com", label: "Instagram" },

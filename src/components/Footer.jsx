@@ -15,12 +15,18 @@ export default function Footer() {
       data-section="Footer"
     >
       <motion.h2
-        initial={{ opacity: 0, scale: 0.85 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        whileHover={{ scale: 1.1 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        viewport={{ once: false }}
-        className="text-center text-[5rem] md:text-6xl font-bold text-[#64ffda] mb-12 drop-shadow-xl"
+        initial={{ opacity: 0, y: -40, scale: 0.96 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.2,
+          ease: "easeOut",
+          type: "spring",
+          stiffness: 80,
+          damping: 12,
+        }}
+        viewport={{ once: true }}
+        className="text-center text-[3rem] md:text-6xl font-bold text-white mb-12"
       >
         Thank you for watching
       </motion.h2>
@@ -29,11 +35,24 @@ export default function Footer() {
       <motion.button
         onClick={goToSkills}
         initial={{ opacity: 0, scale: 0.85 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        whileHover={{ scale: 1.1 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        viewport={{ once: false }}
-        className="border-2 border-[#64ffda] text-[#64ffda] bg-transparent rounded-full p-[0.8rem] py-2 px-6 text-[2rem] font-semibold hover:bg-[#64ffda]/10 transition duration-300"
+        animate={{
+          opacity: 1,
+          y: 0,
+          scale: [1, 1.3, 1], // 拡大縮小ループ
+        }}
+        transition={{
+          opacity: { duration: 0.6, delay: 0.2, ease: "easeOut" },
+          y: { duration: 0.6, ease: "easeOut" },
+          scale: {
+            duration: 1.2,
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "easeInOut",
+            delay: 0.2,
+          },
+        }}
+        viewport={{ once: true }}
+        className="border-2 border-[#64ffda] text-[#64ffda] bg-transparent rounded-full p-[0.7rem] py-2 px-6 text-[1.3rem] font-semibold hover:bg-[#64ffda]/40 transition duration-300"
       >
         Back to Top
       </motion.button>
