@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "Passit",
-    url: "https://protopedia.net/prototype/",
+    url: "https://protopedia.net/prototype/6737",
     image: "/Portfolio/projects/project5.jpg",
   },
   {
