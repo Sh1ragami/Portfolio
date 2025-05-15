@@ -63,6 +63,8 @@ export default function Projects() {
 
   const settings = {
     centerMode: true,
+    swipe: true, // スワイプ対応
+    draggable: true, // ドラッグ  対応
     centerPadding: "0px",
     slidesToShow: 3,
     infinite: true,
@@ -130,8 +132,8 @@ export default function Projects() {
               <div
                 className={`block rounded-2xl overflow-hidden shadow-xl transition-all duration-500 transform ${
                   isActive
-                    ? "scale-105 opacity-100 z-10"
-                    : "scale-90 opacity-100"
+                    ? "scale-100 opacity-100 z-10 rounded-"
+                    : "scale-80 opacity-30"
                 }`}
               >
                 <img
